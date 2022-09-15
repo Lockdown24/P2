@@ -50,12 +50,17 @@ a:hover
 main
 {
     margin-left: 50px;
-    margin-right: 50px;
 }
 
 #title
 {
     font-size: 22px;
+    width: 90%;
+}
+
+h1
+{
+    margin: 100%;
 }
 
 h2
@@ -69,6 +74,11 @@ form
     display: flex;
     flex-direction: row;
     margin-top: 20px;
+}
+
+#search2
+{
+    display: none;
 }
 
 input
@@ -99,10 +109,7 @@ input::placeholder
 
 #search2
 {
-    opacity: 0;
-    position: absolute;
-    left: 300px;
-    top: 292px;
+    opacity: 100;
 }
 
 label
@@ -173,17 +180,26 @@ label
 
     #search_button
     {
-        opacity: 0;
+        display: none;
     }
 
     #search2
     {
-        opacity: 100;
+        display: block;
         background-color: #0065FC;
         color: white;
-        padding: 15px 25px 15px 25px;
-        border-radius: 0px 18px 18px 0px;
+        padding: 15px 15px 15px 15px;
+        border-radius: 18px 18px 18px 18px;
         font-weight: 600;
         border-top: none;
+        margin-right: 40px;
+        margin-left: -15px;
     }
+
+    input
+    {
+        width: 65%;
+    }
+
+   
 }
