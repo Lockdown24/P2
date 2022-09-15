@@ -6,12 +6,12 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
        <link rel="stylesheet" href="CSS/style.css" />
        <link rel="stylesheet" href="CSS/normalize.css" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />       
        <title>Booki</title>
     </head>
 
      <!-- Google Fonts-->
-     <link rel="preconnect" href="https://fonts.gstatic.com">
-     <link href="../css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap" rel="stylesheet">
 
      <body>
         <header>
@@ -20,11 +20,27 @@
             <!--Navbar-->
             <nav>
             <ul>
-                <a  href="#"><li>Hébergements</li></a>
-                <a  href="#"><li>Activités</li></a>
+                <a href="#"><li>Hébergements</li></a>
+                <a href="#"><li>Activités</li></a>
             </ul>
             </nav>
         </header>
+        <main>
+            <section>
+                <h1 id="title">Trouvez votre hébergement pour des vacances de rêves</h1>
+                <h2>En plein centre ville ou en pleine nature</h2>
+
+                <div class="search">
+                    <form method="post" action="#">
+                        <label>
+                            <i id="pos" class="fa-solid fa-location-dot"></i>
+                        </label>
+                        <input type="text" name="pseudo" id="pseudo" placeholder="Marseille, France" size="25"/>
+                        <a id="search_button" href="#">Rechercher</a>
+                    </form>
+                </div>
+            </section>
+        </main>
      </body>
      <footer>
 

@@ -5,11 +5,6 @@
     font-family: 'Raleway', sans-serif;
 }
 
-body
-{
-
-}
-
 /*header*/
 ul
 {
@@ -48,6 +43,66 @@ a:hover
 {
     color: #0065FC;
     border-top: 2px #0065FC solid;
+}
+
+/*Body*/
+
+main
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#title
+{
+    font-size: 22px;
+}
+
+h2
+{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+input
+{
+    border: 2px #F2F2F2 solid;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    border-right: none;
+}
+
+input::placeholder 
+{
+    color: black;
+    opacity: 1;
+    font-weight: bold;
+}
+
+#search_button
+{
+    background-color: #0065FC;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    border-radius: 0px 18px 18px 0px;
+    font-weight: 600;
+    border-top: none;
+
+}
+
+label
+{
+    padding: 15px 15px 15px 20px;
+    background-color: #F2F2F2;
+    border-radius: 18px 0px 0px 18px;
 }
 
 /*Tablet*/
@@ -91,6 +146,11 @@ a:hover
     ul
     {
         font-size: 20px;
+    }
+
+    main
+    {
+        padding: 0;
     }
 
 }
