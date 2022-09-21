@@ -378,11 +378,11 @@ width: 90%;
     min-width: 30px;
 }
 
-}
-
 #hebergement
 {
     flex-direction: column;
+}
+
 }
 
 /*Mobile*/
