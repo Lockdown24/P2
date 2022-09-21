@@ -20,8 +20,8 @@
             <!--Navbar-->
             <nav>
             <ul>
-                <a href="#"><li>Hébergements</li></a>
-                <a href="#"><li>Activités</li></a>
+                <a class="test" href="#"><li>Hébergements</li></a>
+                <a class="test" href="#"><li>Activités</li></a>
             </ul>
             </nav>
         </header>
@@ -29,7 +29,7 @@
             <!--Titles-->
             <section>
                 <h1 id="title">Trouvez votre hébergement pour des vacances de rêve</h1>
-                <h2>En plein centre ville ou en pleine nature</h2>
+                <p>En plein centre ville ou en pleine nature</p>
             <!--BSearch-->
                 <div class="search">
                     <form method="post" action="#">
@@ -48,29 +48,134 @@
                         <div class="filter_logo">
                         <i class="fa-solid fa-money-bill-wave"></i>
                         </div>
-                        <span>Économique</span>
+                       <a class="filter_hover" href="#">
+                        <span class="filter_name">Économique</span>
+                       </a>
                     </div>
                     <div class="filters">
                         <div class="filter_logo">
                         <i class="fa-solid fa-child-reaching"></i>
                         </div>
-                        <span>Familial</span>
+                        <a class="filter_hover" href="#">
+                        <span class="filter_name">Familial</span>
+                        </a>
                     </div>
                     <div class="filters">
                         <div class="filter_logo">
                         <i class="fa-solid fa-heart"></i>
                         </div>
-                        <span>Romantique</span>
+                        <a class="filter_hover" href="#">
+                        <span class="filter_name">Romantique</span>
+                     </a>
                     </div>
                     <div class="filters">
                         <div class="filter_logo">
                         <i class="fa-solid fa-dog"></i>
                         </div>
-                        <span id="animals">Animaux autorisés</span>
+                        <a class="filter_hover" href="#">
+                        <span class="filter_name" id="animals">Animaux autorisés</span>
+                        </a>
                     </div>
                 </div>
                 <!--Infos-->
                <p id="info"><i id="info_logo" class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+            </section>
+            <!--Hébergements-->
+            <section id="hebergement">
+                <div id="bloc1">
+                 <h2>Hébergements à Marseille</h2>
+                 <a href="#" class="card">
+                 <div id="bloc1_pictures">
+                    <div class="bloc1_elements">
+                      <img class="pictures" src="assets\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="herbegement" title="Auberge La Cannebière" />
+                      <p class="hostel_name">Auberge La Cannebière</p>
+                      <p class="price">Nuit à partir de <span class="euros">25€</span></p>
+                      <p class="blue_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="grey_star"><i class="fa-solid fa-star"></i></span>
+                      </p>
+                    </div>
+                 </a>
+                 <a href="#" class="card">
+                    <div class="bloc1_elements">
+                      <img class="pictures" src="assets\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="herbegement" title="Hôtel Du Port" />
+                      <p class="hostel_name">Hôtel Du Port</p>
+                      <p class="price">Nuit à partir de 52<span class="euros">€</span></p>
+                      <p class="blue_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </p>
+                    </div>
+                    </a>
+                    <a href="#" class="card">
+                    <div class="bloc1_elements">
+                      <img class="pictures" src="assets\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="herbegement" title="Hôtel Les Mouettes" />
+                      <p class="hostel_name">Hôtel Les Mouettes</p>
+                      <p class="price">Nuit à partir de 76<span class="euros">€</span></p>
+                      <p class="blue_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="grey_star"><i class="fa-solid fa-star"></i></span>
+                      </p>
+                    </div>
+                    </a>
+                    <a href="#" class="card">
+                    <div class="bloc1_elements">
+                      <img class="pictures" src="assets\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="herbegement" title="Hôtel De La Mer" />
+                      <p class="hostel_name">Hôtel De La Mer</p>
+                      <p class="price">Nuit à partir de 46<span class="euros">€</span></p>
+                      <p class="blue_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="grey_star"><i class="fa-solid fa-star"></i></span>
+                        <span class="grey_star"><i class="fa-solid fa-star"></i></span>
+                      </p>
+                    </div>
+                    </a>
+                    <a href="#" class="card">
+                    <div class="bloc1_elements">
+                      <img class="pictures" src="assets\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="herbegement" title="Auberge Le Panier" />
+                      <p class="hostel_name">Auberge Le Panier</p>
+                      <p class="price">Nuit à partir de <span class="euros">23€</span></p>
+                      <p class="blue_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="grey_star"><i class="fa-solid fa-star"></i></span>
+                      </p>
+                    </div>
+                    </a>
+                    <a href="#" class="card">
+                    <div class="bloc1_elements">
+                      <img class="pictures" src="assets\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="herbegement" title="Hôtel Chez Amina" />
+                      <p class="hostel_name">Hôtel Chez Amina</p>
+                      <p class="price">Nuit à partir de 96<span class="euros">€</span></p>
+                      <p class="blue_star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </p>
+                    </div>
+                    </a>
+                </div>
+                    <p id="afficher"><a href="#" class="card">Afficher plus</a></p>
+                </div>
+                <!--Populaires-->
+                <div id="bloc2">
+                 <h2 id="star">Les plus populaires <i class="fa-solid fa-star"></i></h2>
+                </div>
             </section>
         </main>
      </body>
