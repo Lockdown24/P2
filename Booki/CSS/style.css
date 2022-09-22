@@ -116,7 +116,7 @@ label
 {
     margin-top: 30px;
     display: flex;
-    width: 65%;
+    width: 100%;
     align-items: center;
 }
 
@@ -152,11 +152,6 @@ label
     border-left: none;
     font-weight: bold;
     margin-left: -15px;
-}
-
-#animals
-{
-    width: 200px;
 }
 
 /*Info*/
@@ -206,18 +201,21 @@ h2
     border: 1px #F2F2F2 solid;
     background-color: #F2F2F2;
     border-radius: 25px;
-    height: 600px;
+    height: auto;
 }
 
 #bloc2
 {
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
     width: 35%;
     border: 1px #F2F2F2 solid;
     background-color: #F2F2F2;
     border-radius: 25px;
-    height: 600px;
+    height: 100%;
+ 
 }
 
 #star
@@ -265,6 +263,44 @@ h2
     padding-top: 1px;
 }
 
+.bloc2_elements
+{
+    display: flex;
+    width: 430px;
+    height: 150px;
+    background-color: white;
+    border-radius: 25px;
+    padding-top: 3px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    box-shadow: 6px 6px 20px #e1dfdf;
+}
+
+.pictures2
+{
+    object-fit: cover;
+    width: 150px;
+    height: 145px;
+    min-height: 90px;
+    border-radius: 25px 0px 0px 25px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+#bloc2_pictures
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .hostel_name
 {
     font-weight: bold;
@@ -290,6 +326,14 @@ h2
     margin-left: 20px;
 }
 
+.blue_star2
+{
+    color: #0065FC;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
 .grey_star
 {
     color: #b4b4b4;
@@ -298,6 +342,7 @@ h2
 .card:hover
 {
     border-top: none;
+    border-bottom: none;
 }
 
 #afficher
@@ -305,6 +350,13 @@ h2
     font-weight: bold;
     padding-left: 30px;
     margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.caracteristique
+{
+    width: 45%;
+
 }
 
 /*Tablet*/
@@ -380,10 +432,63 @@ width: 90%;
 
 #hebergement
 {
-    flex-direction: column;
-}
+    flex-direction: column-reverse;
+    margin-right: 0px;
+    margin-left: -20px;
 
 }
+
+#bloc2
+{
+    width: 100%;
+    border-radius: 0;
+    min-width: 0px;
+}
+
+#bloc1
+{
+    width: 100%;
+    background-color: white;
+    border-radius: 0;
+}
+
+.bloc1_elements
+{
+    width: 330px;
+}
+
+.pictures
+{
+    width: 100%;
+}
+
+.pictures2
+{
+    width: 40%;
+}
+#bloc1_title
+{
+    margin-left: 20px;
+}
+
+.bloc2_elements
+{
+    width: 350px;
+}
+
+.blue_star2
+{
+    margin-left: 20px;
+}
+
+.caracteristique
+{
+    width: 50%;
+}
+}
+
+
+
 
 /*Mobile*/
 
