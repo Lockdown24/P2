@@ -552,6 +552,7 @@ footer
     {
         border-bottom: 3px #F2F2F2 solid;
         padding-bottom: 30px;
+        font-size: 20px;
     }
 
     .nav:hover
@@ -581,11 +582,7 @@ footer
 
     #nav
     {
-        margin-left: 0px;
-    }
-    ul
-    {
-        font-size: 20px;
+        margin-left: -10px;
     }
 
     main
@@ -781,7 +778,7 @@ footer
 
     .activity_pictures5
     {
-        height: 150px;
+       height: 150px;
        object-position: 50% 50%;
        object-fit: cover;
     }
