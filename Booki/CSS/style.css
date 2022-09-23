@@ -570,6 +570,7 @@ footer
     {
         width: 130px;
         height: auto;
+        margin-left: 0px;
     }
 
     nav
@@ -577,7 +578,11 @@ footer
         width: 100%;
         text-align: center;
     }
-    
+
+    #nav
+    {
+        margin-left: -10px;
+    }
     ul
     {
         font-size: 20px;
@@ -598,6 +603,7 @@ footer
     #info
     {
         width: 90%;
+        margin-bottom: 30px;
     }
 
     #info_logo
