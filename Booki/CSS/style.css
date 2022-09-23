@@ -538,7 +538,7 @@ footer
 
     main
     {
-    margin-left: 20px;
+        margin-left: 20px;
     }
 
     a:hover
@@ -581,7 +581,7 @@ footer
 
     #nav
     {
-        margin-left: -10px;
+        margin-left: 0px;
     }
     ul
     {
@@ -598,7 +598,6 @@ footer
         flex-wrap: wrap;
         width: 92%;
     }
-
 
     #info
     {
@@ -734,35 +733,35 @@ footer
 
     .activity_elements
     {
-       height: 150px;
+       height: 200px;
        width: 330px;
        margin-bottom: 20px;
     }
 
     .activity_elements2
     {
-       height: 150px;
+       height: 200px;
        width: 330px;
        margin-bottom: 20px;
     }
 
     .activity_elements3
     {
-       height: 150px;
+       height: 200px;
        width: 330px;
        margin-bottom: 20px;
     }
     
     .activity_elements4
     {
-       height: 150px;
+       height: 200px;
        width: 330px;
        margin-bottom: 20px;
     }
 
     .activity_pictures
     {
-       height: 100px;
+       height: 150px;
        object-position: 50% 20%;
        object-fit: cover;
     }
@@ -770,17 +769,19 @@ footer
     .activity_pictures3
     {
        object-position: 50% 40%;
+       height: 150px;
     }
 
     .activity_pictures4
     {
        object-position: 50% 10%;
+       height: 150px;
     }
 
 
     .activity_pictures5
     {
-       height: 100px;
+        height: 150px;
        object-position: 50% 50%;
        object-fit: cover;
     }
