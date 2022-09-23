@@ -5,17 +5,12 @@
     font-family: 'Raleway', sans-serif;
   }
 
-/*header*/
+/*header Section*/
 ul
 {
     list-style-type: none;
     display: flex;
     font-size: 16px;
-}
-
-ol
-{
-    list-style-type: none;
 }
 
 li
@@ -36,6 +31,7 @@ header img
     margin: 30px 0px 0px 50px;
 }
 
+/*Nav Section*/
 .nav
 {
     padding: 40px;
@@ -65,7 +61,7 @@ a:hover
     border-top: 2px #0065FC solid;
 }
 
-/*Titres*/
+/*Titles Section*/
 
 main
 {
@@ -83,7 +79,7 @@ h1
     margin: 100%;
 }
 
-/*Search*/
+/*Search Section*/
 
 form
 {
@@ -128,7 +124,7 @@ label
     border-radius: 18px 0px 0px 18px;
 }
 
-/*Filters*/
+/*Filters Section*/
 
 #section_filters
 {
@@ -172,7 +168,7 @@ label
     margin-left: -15px;
 }
 
-/*Info*/
+/*Info Section*/
 
 #info
 {
@@ -194,8 +190,7 @@ label
     margin-right: 8px;
 }
 
-/*Bloc Hébergements*/
-
+/*Hébergements + Popularies Section*/
 h2
 {
     font-size: 22px;
@@ -363,6 +358,7 @@ h2
     width: 45%;
 }
 
+/*Activitys Section*/
 #activity
 {
     margin: 40px 50px 0px 0px;
@@ -497,6 +493,7 @@ h2
     justify-content: space-between;
 }
 
+/*Footer Section*/
 footer
 {
     height: 100%;
@@ -525,10 +522,16 @@ footer
     border: none;
 }
 
-/*Tablet*/
+ol
+{
+    list-style-type: none;
+}
 
+/*Tablet*/
 @media screen and (max-width: 992px)
 {
+
+/*Header Section*/
     header
     {
         flex-direction: column;
@@ -536,11 +539,14 @@ footer
         justify-content: center;
     }
 
-    main
+    header img
     {
-        margin-left: 20px;
+        width: 130px;
+        height: auto;
+        margin-left: 0px;
     }
 
+/*Nav Section*/
     a:hover
     {
         color: #0065FC;
@@ -567,13 +573,6 @@ footer
         border-bottom: none;
     }
 
-    header img
-    {
-        width: 130px;
-        height: auto;
-        margin-left: 0px;
-    }
-
     nav
     {
         width: 100%;
@@ -586,17 +585,21 @@ footer
         padding-left: 0px;
     }
 
+/*Main Section*/
     main
     {
         padding: 0;
+        margin-left: 20px;
     }
 
+/*Filters Section*/
     #section_filters
     {
         flex-wrap: wrap;
         width: 92%;
     }
 
+/*Info Section*/
     #info
     {
         width: 90%;
@@ -608,6 +611,7 @@ footer
         min-width: 30px;
     }
 
+/*Hebergement Section*/
     #hebergement
     {
         flex-direction: column-reverse;
@@ -658,17 +662,20 @@ footer
        margin-left: 20px;
     }
 
+/*Popularies Section*/
     .caracteristique
     {
        width: 55%;
     }
 
+/*Activity Section*/
     #activity_contener
     {
        flex-wrap: wrap;
        width: 100%;
     }
 
+/*Footer Section*/
     .footer_bloc
     {
        margin-right: 200px;
@@ -677,19 +684,22 @@ footer
 }
 
 /*Mobile*/
-
 @media screen and (max-width: 768px)
 {
+
+/*Header Section*/
     header img
     {
         width: 100px
     }
 
+/*Nav Section*/
     nav a
     {
         padding-bottom: 15px;
     }
 
+/*Search Section*/
     #search_button
     {
         display: none;
@@ -712,6 +722,7 @@ footer
         width: 65%;
     }
 
+/*Filters Section*/
     h4
     {
         margin-right: 500px;
@@ -722,6 +733,7 @@ footer
         margin: 10px 6px 0px 0px;
     }
 
+/*Activitys Section*/
     #activity_contener
     {
        flex-direction: column;
@@ -790,6 +802,7 @@ footer
        object-position: 50% 40%;
     }
 
+/*Footer Section*/
     footer
     {
        flex-direction: column;
