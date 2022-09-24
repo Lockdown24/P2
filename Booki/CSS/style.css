@@ -28,25 +28,19 @@ header img
 {
     width: 80px;
     height: 40px;
-    margin: 30px 0px 0px 50px;
+    margin: 30px 0px 20px 50px;
 }
 
 /*Nav Section*/
 .nav
 {
-    padding: 40px;
+    padding: 40px 40px 0px 40px;
     width: 50%;
 }
 
 .nav:hover
 {
-    color: #0065FC;
     border-top: 2px #0065FC solid;
-}
-
-.nav a:hover
-{
-    border-top: none;
 }
 
 a
@@ -58,7 +52,6 @@ a
 a:hover
 {
     color: #0065FC;
-    border-top: 2px #0065FC solid;
 }
 
 /*Titles Section*/
@@ -139,11 +132,6 @@ label
     display: flex;
     align-items: center;
     margin-left: 40px;
-}
-
-.filter_hover:hover
-{
-    border-top: none;
 }
 
 .filter_logo
@@ -340,12 +328,6 @@ h2
     color: #b4b4b4;
 }
 
-.card:hover
-{
-    border-top: none;
-    border-bottom: none;
-}
-
 #afficher
 {
     font-weight: bold;
@@ -516,12 +498,6 @@ footer
     margin-bottom: 20px;
 }
 
-.footer_hover :hover
-{
-    color: #0065FC;
-    border: none;
-}
-
 ol
 {
     list-style-type: none;
@@ -543,16 +519,10 @@ ol
     {
         width: 130px;
         height: auto;
-        margin-left: 0px;
+        margin: 30px 0px 0px 0px;
     }
 
 /*Nav Section*/
-    a:hover
-    {
-        color: #0065FC;
-        border-bottom: 4px #0065FC solid;
-        border-top: none;
-    }
 
     .nav
     {
@@ -566,11 +536,6 @@ ol
         color: #0065FC;
         border-bottom: 4px #0065FC solid;
         border-top: none;
-    }
-
-    .nav a:hover
-    {
-        border-bottom: none;
     }
 
     nav
