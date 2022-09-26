@@ -771,7 +771,7 @@ ol
     footer
     {
        flex-direction: column;
-       height: auto;
+       height: 100%;
        padding-left: 20px;
     }
 
