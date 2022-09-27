@@ -202,6 +202,7 @@ h2
     background-color: #F2F2F2;
     border-radius: 25px;
     height: auto;
+    margin-right: 20px;
 }
 
 #bloc2
@@ -357,6 +358,7 @@ h2
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: -20px;
 }
 
 .activity_elements
@@ -368,6 +370,8 @@ h2
     border-radius: 25px;
     flex-direction: column;
     box-shadow: 6px 6px 20px #e1dfdf;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .activity_pictures
@@ -638,12 +642,37 @@ ol
     {
        flex-wrap: wrap;
        width: 100%;
+       justify-content: space-around;
+       margin: 0px 0px -40px 0px;
     }
 
+    .activity_elements
+    {
+        margin-bottom: 40px;
+        width: 330px;
+    }
+
+    .activity_elements2
+    {
+        width: 330px;
+        margin-left: 20px;
+    }
+
+    .activity_elements3
+    {
+        width: 330px;
+        margin: 0px 0px 40px 20px;
+    }
+
+    .activity_elements4
+    {
+        width: 330px;
+        margin: 0px 0px 40px 20px;
+    }
 /*Footer Section*/
     .footer_bloc
     {
-       margin-right: 200px;
+        margin-right: 100px;
     }
 
 }
@@ -684,7 +713,8 @@ ol
 
     input
     {
-        width: 65%;
+        width: 260px;
+        min-width: 200px;
     }
 
 /*Filters Section*/
@@ -705,6 +735,7 @@ ol
        align-items: center;
        margin-left: 15px;
        flex-wrap: nowrap;
+       margin-top: 30px;
     }
 
     .activity_elements
@@ -718,21 +749,21 @@ ol
     {
        height: 200px;
        width: 330px;
-       margin-bottom: 20px;
+       margin: 0px 0px 20px 5px;
     }
 
     .activity_elements3
     {
        height: 200px;
        width: 330px;
-       margin-bottom: 20px;
+       margin: 0px 0px 20px 5px;
     }
     
     .activity_elements4
     {
        height: 200px;
        width: 330px;
-       margin-bottom: 20px;
+       margin: 0px 0px 20px 5px;
     }
 
     .activity_pictures
@@ -771,8 +802,10 @@ ol
     footer
     {
        flex-direction: column;
-       height: 100%;
+       height: 100vh;
+       min-height: 550px;
        padding-left: 20px;
+       width: 100%;
     }
 
     ol
