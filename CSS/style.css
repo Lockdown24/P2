@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    max-width: 1600px;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
@@ -207,7 +208,7 @@ h2
     border: 1px #F2F2F2 solid;
     background-color: #F2F2F2;
     border-radius: 25px;
-    height: auto;
+    height: 100%;
     margin-right: 20px;
 }
 
@@ -595,7 +596,6 @@ ol
     {
         width: 100%;
         border-radius: 0;
-        min-width: 0px;
     }
 
     #bloc1
@@ -732,6 +732,11 @@ ol
         margin: 10px 6px 0px 0px;
     }
 
+    h2
+    {
+        margin-left: 10px;
+    }
+
 /*Activitys Section*/
     #activity_contener
     {
@@ -806,7 +811,7 @@ ol
     footer
     {
        flex-direction: column;
-       height: 100vh;
+       height: 100%;
        min-height: 550px;
        padding-left: 20px;
        width: 100%;
