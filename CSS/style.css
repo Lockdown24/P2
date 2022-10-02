@@ -228,6 +228,7 @@ h2
     display: flex;
     justify-content: space-between;
     padding-right: 30px;
+    margin-left: 30px;
 }
 
 #bloc1_pictures
@@ -639,6 +640,11 @@ ol
     .caracteristique
     {
        width: 55%;
+    }
+
+    #star
+    {
+        margin-left: 10px;
     }
 
 /*Activity Section*/
